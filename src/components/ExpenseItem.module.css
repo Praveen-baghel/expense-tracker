@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid grey;
+  border-radius: 20px;
+  background-color: grey;
+  width: 90%;
+  margin: 10px auto;
+}
+.main button {
+  border: 2px solid white;
+  font-size: large;
+  border-radius: 8px;
+  background-color: rgb(9, 9, 131);
+  color: white;
+  padding: 5px;
+}
+.main h2 {
+  color: white;
+  font-size: 30px;
+}

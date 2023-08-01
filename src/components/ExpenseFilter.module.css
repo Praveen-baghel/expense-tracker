@@ -1,0 +1,11 @@
+.filterMain h2 {
+  color: white;
+  font-size: 30px;
+}
+.filterMain {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}

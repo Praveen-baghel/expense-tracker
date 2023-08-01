@@ -1,0 +1,26 @@
+.barMain {
+  height: 90%;
+  width: 5%;
+}
+.chart_outer {
+  border: 1px solid blue;
+  height: 80%;
+  display: flex;
+  border-radius: 50px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.chartBar {
+  background-color: blue;
+  width: 100%;
+  transition: all 0.3s ease-out;
+}
+.label {
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .label {
+    font-size: 0.6rem;
+  }
+}
